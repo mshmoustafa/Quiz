@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F0732572188C9DC9006DCBA1 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = F0732571188C9DC9006DCBA1 /* Readme.md */; };
 		F0934D0E1886DA950064E2F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0934D0D1886DA950064E2F3 /* Foundation.framework */; };
 		F0934D101886DA950064E2F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0934D0F1886DA950064E2F3 /* CoreGraphics.framework */; };
 		F0934D121886DA950064E2F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0934D111886DA950064E2F3 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F0732571188C9DC9006DCBA1 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = SOURCE_ROOT; };
 		F0934D0A1886DA950064E2F3 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0934D0D1886DA950064E2F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F0934D0F1886DA950064E2F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +119,7 @@
 				F0934D1F1886DA950064E2F3 /* Main.storyboard */,
 				F0934D221886DA950064E2F3 /* msmViewController.h */,
 				F0934D231886DA950064E2F3 /* msmViewController.m */,
+				F0732571188C9DC9006DCBA1 /* Readme.md */,
 				F0934D251886DA950064E2F3 /* Images.xcassets */,
 				F0934D141886DA950064E2F3 /* Supporting Files */,
 			);
@@ -231,6 +234,7 @@
 			files = (
 				F0934D261886DA950064E2F3 /* Images.xcassets in Resources */,
 				F0934D181886DA950064E2F3 /* InfoPlist.strings in Resources */,
+				F0732572188C9DC9006DCBA1 /* Readme.md in Resources */,
 				F0934D211886DA950064E2F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +465,7 @@
 				F0934D3E1886DA950064E2F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F0934D3F1886DA950064E2F3 /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				F0934D411886DA950064E2F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
