@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface msmAppDelegate : UIResponder <UIApplicationDelegate>
+@interface msmAppDelegate : UIResponder <UIApplicationDelegate> // this object will conform to the protocol in <>
 
 @property (strong, nonatomic) UIWindow *window;
 
